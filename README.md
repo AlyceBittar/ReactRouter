@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React Router Dom (V6) Navigation, URL Parameters Handling, and Modal Rendering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, React Router Dom (V6) takes center stage for its ability to efficiently manage routing within React applications. By adopting React Router Dom, developers gain access to a powerful and flexible toolset for seamlessly navigating between different views, significantly enhancing the overall user experience.
 
-## Available Scripts
+## Technologies Used:
+1. React
+2. React Router Dom (V6)
+3. React Hooks
+4. React Portals
 
-In the project directory, you can run:
+## Navigation Handling:
 
-### `npm start`
+**React Router Dom** provides a robust solution for handling navigation transitions between various views within the application. Its efficient routing mechanism ensures swift page transitions, minimizing loading times and enhancing user engagement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A notable advantage of **React Router Dom** is its capability to intercept server calls during navigation. By intercepting these calls, the application can optimize data fetching and rendering processes, resulting in faster load times and improved performance overall.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Accessing URL Parameters using Hooks:
 
-### `npm test`
+Utilizing **React Hooks**, the project effortlessly retrieves and manipulates URL parameters. This feature empowers developers to dynamically interact with URL parameters, facilitating personalized and dynamic content rendering based on URL inputs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* To test this, navigate to the Contact page via the NavBar and click on one of the contact cards, it will show you a custom card based on the URLs ending tag. You can change it in the URL to see the card dynamically pulling the info rathrer than it being hard coded. 
 
-### `npm run build`
+### Modals with React Portals:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**React Portals** are leveraged to create and manage modal components within the application. By utilizing React Portals, modals maintain a consistent user interface while being dynamically rendered outside the DOM hierarchy, ensuring optimal performance and flexibility.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
+### Installation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository to your local machine.
+Navigate to the project directory and install dependencies using npm install or yarn install.
 
-### `npm run eject`
+### Running the Application:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once dependencies are installed, start the development server using ** npm start ** or **yarn start**.
+The application will be accessible via [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Navigation:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Explore the different views by clicking on the navigation links provided within the application.
+Experience seamless transitions between views facilitated by React Router Dom.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### URL Parameter Handling:
 
-## Learn More
+Observe how URL parameters influence the content rendered within the application.
+Experiment with different URL parameters to dynamically manipulate the displayed content.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Modal Usage:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Trigger modal components within the application to view additional information or perform specific actions.
+Experience the smooth and responsive behavior of modals rendered using React Portals.
