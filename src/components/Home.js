@@ -10,17 +10,13 @@ function Home() {
             className="ui raised very padded text container segment"
             style={{marginTop:'80px'}}    
         >
-            <h3 className="ui header">Home</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation 
-                    ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla 
-                    pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <h1 className="ui header">Welcome to the Homepage!</h1>
+            <h3> Clicking the Navbar buttons 
+                will show you the features 
+                in this project.
+            </h3>
+            <p>1. The About page shows modals using React Portals</p>
+            <p>2. The Contact page shows how to access URL parameters using React Hooks</p>
         </div>
     )
 }

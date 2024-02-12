@@ -18,6 +18,7 @@ function Card() {
         style={{marginTop:'80px'}}    
         >
         <h3 className="ui header">{ user }</h3>
+        <p>Try changing the ending tag in the URL to see the name on this card change.</p>
         </div>
     )
 }
