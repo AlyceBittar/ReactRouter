@@ -19,9 +19,11 @@ function ComponentWithRouterProp(Component) {
 function Navbar(){
     return(
         <nav className="ui raised very padded segment">
-            <a href="/" className="ui teal inverted segment">Gloria</a>
+            <a href="/" className="ui teal inverted segment">
+                Home (server request - page reload)
+            </a>
             <div className="ui right floated header">
-                <button className="ui button"><Link to="/">Home</Link></button>
+                <button className="ui button"><Link to="/">Home (client-side data caching - no page reload)</Link></button>
                 <button className="ui button"><Link to="/about">About</Link></button>
                 <button className="ui button"><Link to="/contact">Contact</Link></button>
             </div>
