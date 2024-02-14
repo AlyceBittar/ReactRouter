@@ -1,6 +1,6 @@
-# React Router Dom (V6) Navigation, URL Parameters Handling, and Modal Rendering
+# React Router Dom (V6): Using Navigation, URL Parameters Handling, and Modal Rendering
 
-In this project, React Router Dom (V6) takes center stage for its ability to efficiently manage routing within React applications. By adopting React Router Dom, developers gain access to a powerful and flexible toolset for seamlessly navigating between different views, significantly enhancing the overall user experience.
+In this project, React Router Dom (V6) is used for its ability to efficiently manage routing within React applications. Using this flexible toolset helps in navigating between different views, handling URL parameters from anywhere in the app and allows React Portals to be rendered anywhere on single page applications.
 
 ## Technologies Used:
 1. React
